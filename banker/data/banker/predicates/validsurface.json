@@ -1,5 +1,5 @@
 {
   "condition": "minecraft:location_check",
   "offsetY": -1,
-  "predicate": { "block": { "tag": "minecraft:solid_blocks" } }
+  "predicate": { "block": { "tag": "banker:solid_blocks" } }
 }

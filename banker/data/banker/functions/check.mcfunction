@@ -1,1 +1,2 @@
-execute if predicate banker:0_001 unless entity @e[type=minecraft:villager,tag=banker,distance=..200] run function banker:location
+execute if predicate banker:spawnchance unless entity @e[type=minecraft:villager,tag=banker,distance=..200] run function banker:location
+execute as @e[type=villager,name="Banker"] run function banker:bankertick

@@ -1,7 +1,10 @@
 #Crimson Tardis
 
-scoreboard objectives add rng_input trigger {"text":"Input"}
-scoreboard objectives add rng_output dummy {"text":"Output"}
-scoreboard objectives add rng_bin dummy
-scoreboard objectives add rng_min trigger {"text":"Minimum"}
-scoreboard players enable @a rng_input
+tellraw @a {"text":""}
+tellraw @a {"text":"Random Number Generator V2 Loaded!","color":"gold","bold":true}
+
+scoreboard objectives add rng.min dummy
+scoreboard objectives add rng.input dummy
+scoreboard objectives add rng.output dummy
+scoreboard objectives add rng.temp dummy
+

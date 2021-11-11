@@ -1,7 +1,3 @@
 {
-	"values": [
-		"minecraft:zombie",
-		"minecraft:drowned",
-		"minecraft:husk"
-	]
+  "values": ["minecraft:zombie", "minecraft:drowned", "minecraft:husk"]
 }
