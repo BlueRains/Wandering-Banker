@@ -1,0 +1,1 @@
+execute if predicate banker:0_001 unless entity @e[type=minecraft:villager,tag=banker,distance=..200] run function banker:location
