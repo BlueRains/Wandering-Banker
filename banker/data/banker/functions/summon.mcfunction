@@ -1,0 +1,1 @@
+summon villager ~ ~ ~ {Willing: 0b, CustomName: '{"text":"Banker"}', VillagerData: {level: 99, profession: "minecraft:librarian", type: "minecraft:taiga"}, Offers: {Recipes: [{maxUses: 3, priceMultiplier: 0f, specialPrice: 0, demand: 0}]}}
