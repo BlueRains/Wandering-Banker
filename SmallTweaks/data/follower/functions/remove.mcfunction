@@ -1,0 +1,1 @@
+scoreboard objectives remove fol_give

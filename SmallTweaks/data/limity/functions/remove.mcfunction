@@ -1,0 +1,2 @@
+scoreboard objectives remove limy_new
+scoreboard objectives remove limy_old

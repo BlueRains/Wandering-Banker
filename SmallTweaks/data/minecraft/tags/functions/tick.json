@@ -1,0 +1,12 @@
+{
+	"values": [
+		"trigger:tick",
+		"portal_limiter:tick",
+		"follower:tick",
+		"rng:core",
+		"vampire:tick",
+		"testing:tick",
+		"arrow:tick",
+		"limity:tick"
+	]
+}

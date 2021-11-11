@@ -1,0 +1,25 @@
+{
+	"values":[
+		"minecraft:nether_quartz_ore",
+		"minecraft:nether_gold_ore",
+		"minecraft:soul_sand",
+		"minecraft:soul_soil",
+		"minecraft:blackstone",
+		"minecraft:gravel",
+		"minecraft:magma_block",
+		"minecraft:nether_bricks",
+		"minecraft:cracked_nether_bricks",
+		"minecraft:nether_brick_slab",
+		"minecraft:chiseled_nether_bricks",
+		"minecraft:nether_brick_fence",
+		"minecraft:nether_brick_stairs",
+		"minecraft:nether_brick_wall",
+		"minecraft:red_nether_brick_wall",
+		"minecraft:red_nether_brick_stairs",
+		"minecraft:red_nether_brick_slab",
+		"minecraft:red_nether_bricks",
+		"minecraft:netherrack",
+		"minecraft:bone_block",
+		"minecraft:basalt"
+	]
+}
