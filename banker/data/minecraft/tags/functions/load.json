@@ -1,6 +1,3 @@
 {
-	"values": [
-		"banker:setup",
-		"rng:initiate"
-	]
+  "values": ["banker:setup", "math:zprivate/init"]
 }
