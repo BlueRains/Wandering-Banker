@@ -14,5 +14,5 @@ scoreboard players operation @s pos.z += $out math
 execute store result entity @s Pos[2] double 1 run scoreboard players get @s pos.z
 tag @s add aec_banker_heightcheck
 tag @s remove aec_banker_location
-summon armor_stand ~ ~ ~ {NoGravity:1b}
-#schedule function banker:height/schedule 1t
+summon armor_stand ~ ~ ~ {NoGravity: 1b}
+schedule function banker:height/schedule 1t
