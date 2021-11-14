@@ -1,4 +1,4 @@
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["uuid"]}
+summon minecraft:marker ~ ~ ~ {Tags:["uuid"]}
 execute store result score #lcg math run data get entity @e[tag=uuid,limit=1] UUID[0]
 execute store result score #temp math run data get entity @e[tag=uuid,limit=1] UUID[1]
 execute store result score #temp1 math run data get entity @e[tag=uuid,limit=1] UUID[2]

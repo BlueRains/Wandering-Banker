@@ -1,1 +1,1 @@
-execute as @e[type=area_effect_cloud,tag=aec_banker_ph,tag=aec_banker_heightcheck] at @s run function banker:height/check
+execute as @e[type=marker,tag=aec_banker_ph,tag=aec_banker_heightcheck] at @s run function banker:height/check

@@ -1,0 +1,7 @@
+[
+  {
+    "condition": "time_check",
+    "value": 1400,
+    "period": 24000
+  }
+]
