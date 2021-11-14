@@ -1,4 +1,3 @@
-say aeclocation
 execute store result score @s pos.x run data get entity @p Pos[0] 1
 execute store result score @s pos.z run data get entity @p Pos[2] 1
 execute store result entity @s Pos[1] double 1 run scoreboard players operation @s pos.y = $minspawnheight wb_settings

@@ -1,2 +1,2 @@
 tag @s remove noname
-scoreboard players reset @s
+scoreboard players reset @s timer
