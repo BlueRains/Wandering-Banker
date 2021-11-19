@@ -9,6 +9,7 @@ scoreboard objectives add timer dummy
 #Finals DO NOT EDIT
 data modify storage banker:offers name set value {id: "minecraft:gold_nugget", Count: 1b, tag: {display: {Name: '{"text":"Shmoofs","italic":false}'}, bankerCurrency: 1b}}
 scoreboard players set $-1 wb_settings -1
+scoreboard players set $2 wb_settings 2
 
 # Variables
 data modify storage banker:offers name.tag.display.Name set value '{"text":"Shmoofs","italic":false}'

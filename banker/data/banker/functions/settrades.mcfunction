@@ -64,3 +64,4 @@ execute store result storage banker:offers bin.sell.Count double 1 run scoreboar
 data modify storage banker:offers villager[7] set from storage banker:offers bin
 data modify entity @s Offers.Recipes set from storage banker:offers villager
 data remove storage banker:offers villager
+tag @s remove summoned
