@@ -42,6 +42,7 @@ execute store result storage banker:offers bin.sell.Count double 1 run scoreboar
 data modify storage banker:offers villager[4] set from storage banker:offers bin
 # Lapis
 data modify storage banker:offers bin set from storage banker:offers villager[5]
+data modify storage banker:offers bin.sell set from storage banker:offers currency
 scoreboard players operation $in math = $lapismin wb_settings
 scoreboard players operation $in1 math = $lapismax wb_settings
 function math:rng/range
@@ -49,6 +50,7 @@ execute store result storage banker:offers bin.sell.Count double 1 run scoreboar
 data modify storage banker:offers villager[5] set from storage banker:offers bin
 # Diamond
 data modify storage banker:offers bin set from storage banker:offers villager[6]
+data modify storage banker:offers bin.sell set from storage banker:offers currency
 scoreboard players operation $in math = $diamondmin wb_settings
 scoreboard players operation $in1 math = $diamondmax wb_settings
 function math:rng/range
@@ -56,10 +58,10 @@ execute store result storage banker:offers bin.sell.Count double 1 run scoreboar
 data modify storage banker:offers villager[6] set from storage banker:offers bin
 # Netherite
 data modify storage banker:offers bin set from storage banker:offers villager[7]
+data modify storage banker:offers bin.sell set from storage banker:offers currency
 scoreboard players operation $in math = $netheritemin wb_settings
 scoreboard players operation $in1 math = $netheritemax wb_settings
 function math:rng/range
-data modify storage banker:offers bin.sell set from storage banker:offers currency
 execute store result storage banker:offers bin.sell.Count double 1 run scoreboard players get $out math
 data modify storage banker:offers villager[7] set from storage banker:offers bin
 data modify entity @s Offers.Recipes set from storage banker:offers villager
