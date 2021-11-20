@@ -3,8 +3,6 @@ scoreboard objectives add pos.x dummy
 scoreboard objectives add pos.y dummy
 scoreboard objectives add pos.z dummy
 scoreboard objectives add wb_settings dummy
-scoreboard objectives add wb_bin dummy
-scoreboard objectives add timer dummy
 
 #Finals DO NOT EDIT
 data modify storage banker:offers currency set value {id: "minecraft:gold_nugget", Count: 1b, tag: {Enchantments: [{}], display: {Name: '{"text":"Shmoofs","italic":false}'}, bankerCurrency: 1b}}
@@ -14,8 +12,8 @@ scoreboard players set $2 wb_settings 2
 # Variables
 data modify storage banker:offers currency.tag.display.Name set value '{"text":"Shmoofs","italic":false}'
 scoreboard players set $maxspawnheight wb_settings 320
-scoreboard players set $minspawnheight wb_settings 0
-scoreboard players set $spawnrange wb_settings 120
+scoreboard players set $minspawnheight wb_settings 60
+scoreboard players set $spawnrange wb_settings 5
 
 # Prices (Buy)
 
