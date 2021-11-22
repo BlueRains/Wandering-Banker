@@ -5,12 +5,18 @@ scoreboard players operation $in math = $negspawnrange wb_settings
 scoreboard players operation $in1 math = $spawnrange wb_settings
 function math:rng/range
 scoreboard players operation @s pos.x += $out math
-execute store result entity @s Pos[0] double 1 run scoreboard players get @s pos.x
+scoreboard players operation @s pos.x *= $2 wb_settings
+execute if score $out math matches 1.. run scoreboard players operation @s pos.x += $-1 wb_settings
+execute if score $out math matches ..0 run scoreboard players operation @s pos.x -= $-1 wb_settings
+execute store result entity @s Pos[0] double 0.5 run scoreboard players get @s pos.x
 scoreboard players operation $in math = $negspawnrange wb_settings
 scoreboard players operation $in1 math = $spawnrange wb_settings
 function math:rng/range
 scoreboard players operation @s pos.z += $out math
-execute store result entity @s Pos[2] double 1 run scoreboard players get @s pos.z
+scoreboard players operation @s pos.z *= $2 wb_settings
+execute if score $out math matches 1.. run scoreboard players operation @s pos.z += $-1 wb_settings
+execute if score $out math matches ..0 run scoreboard players operation @s pos.z -= $-1 wb_settings
+execute store result entity @s Pos[2] double 0.5 run scoreboard players get @s pos.z
 tag @s add aec_banker_heightcheck
 tag @s remove aec_banker_location
 schedule function banker:height/schedule 1t
