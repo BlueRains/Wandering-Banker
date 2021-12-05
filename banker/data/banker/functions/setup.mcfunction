@@ -13,8 +13,8 @@ scoreboard players set $2 wb_settings 2
 # Variables
 data modify storage banker:offers currency.tag.display.Name set value '{"text":"Shmoofs","italic":false}'
 scoreboard players set $maxspawnheight wb_settings 320
-scoreboard players set $minspawnheight wb_settings 0
-scoreboard players set $spawnrange wb_settings 5
+scoreboard players set $minspawnheight wb_settings 60
+scoreboard players set $spawnrange wb_settings 128
 scoreboard players set $pricemultiplier wb_settings 3
 #maximum uses
 data modify storage banker:offers itemtemplate.maxUses set value 3

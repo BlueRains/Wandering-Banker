@@ -16,6 +16,7 @@ data modify storage banker:offers bin set from storage banker:offers itemtemplat
 data modify storage banker:offers item.bin set from storage list:iteration Result
 scoreboard players operation $in math = $randommin wb_settings
 scoreboard players operation $in1 math = $randommax wb_settings
+execute if predicate math:binary run function banker:trades/buy
 function banker:trades/sell
 data modify storage banker:offers villager append from storage banker:offers bin
 # Iron
