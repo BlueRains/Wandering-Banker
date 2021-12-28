@@ -95,7 +95,6 @@ data modify storage banker:offers villager append from storage banker:offers bin
 
 
 #End
-data remove storage banker:offers itemtemplate
 data remove entity @s Offers.Recipes
 data modify entity @s Offers.Recipes set from storage banker:offers villager
 #data remove storage banker:offers villager
